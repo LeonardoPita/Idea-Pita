@@ -1,0 +1,21 @@
+/**************************PORTFOLIO****************************/
+.proyectos img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+}
+/**************************PORTFOLIO TABLET****************************/
+@media (min-width: 768px) {
+    .portfolioText p {
+        font-size: 20px;
+    }
+    .centerText {
+        text-align: center;
+    }
+}
+
+/**************************PORTFOLIO DESKTOP****************************/
+@media (min-width: 1024px) {
+    
+}

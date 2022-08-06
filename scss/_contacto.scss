@@ -1,0 +1,56 @@
+/**************************CONTACTO****************************/
+
+.contactImage {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.data {
+    text-align: center;
+}
+
+.data p {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+#contactForm label,
+input,
+textarea {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.submit,
+.reset {
+    display: inline;
+}
+
+#contactForm label,
+input,
+textarea {
+    width: 95%;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+/**************************CONTACTO TABLET****************************/
+@media (min-width: 768px) {
+    .data p {
+        font-size: 20px;
+    }
+}
+
+/**************************CONTACTO DESKTOP****************************/
+@media (min-width: 1024px) {
+    #contactForm label,
+    input,
+    textarea {
+        max-width: 700px;
+    }
+}

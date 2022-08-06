@@ -1,0 +1,16 @@
+/**************************INFO****************************/
+
+/**************************INFO TABLET****************************/
+@media (min-width: 768px) {
+    .infoImage {
+        min-width: 500px;
+        padding-top: 30%;
+    }
+}
+/**************************INFO DESKTOP****************************/
+@media (min-width: 1024px) {
+    .infoImage {
+        min-width: 500px;
+        padding-top: 40%;
+    }
+}

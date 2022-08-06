@@ -1,4 +1,4 @@
-/**************************RESET****************************/
+/****************************RESET***********************************/
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +7,43 @@
   text-decoration: none;
   font-size: 16px;
   font-family: Roboto, sans-serif; }
+
+/**************************ANIMATIONS****************************/
+.animateLink {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out; }
+
+.animateLink:hover {
+  border-bottom: 1px solid #ffcd1c;
+  padding: 0, 2px;
+  color: #ffcd1c; }
+
+.animateLogo {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; }
+
+.animateLogo:hover {
+  font-size: 40px; }
+
+.animateIcon {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; }
+
+.animateIcon:hover {
+  transform: translatey(-15px);
+  -webkit-transform: translatey(-15px);
+  -moz-transform: translatey(-15px);
+  -ms-transform: translatey(-15px);
+  -o-transform: translatey(-15px); }
 
 /**************************GENERAL STYLES****************************/
 h1 {
@@ -72,43 +109,6 @@ img {
   .cell6 {
     grid-area: cell6; } }
 
-/**************************ANIMATIONS****************************/
-.animateLink {
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out; }
-
-.animateLink:hover {
-  border-bottom: 1px solid #ffcd1c;
-  padding: 0, 2px;
-  color: #ffcd1c; }
-
-.animateLogo {
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out; }
-
-.animateLogo:hover {
-  font-size: 40px; }
-
-.animateIcon {
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out; }
-
-.animateIcon:hover {
-  transform: translatey(-15px);
-  -webkit-transform: translatey(-15px);
-  -moz-transform: translatey(-15px);
-  -ms-transform: translatey(-15px);
-  -o-transform: translatey(-15px); }
-
 /**************************NAVIGATION****************************/
 .active {
   color: #ffcd1c; }
@@ -155,8 +155,118 @@ footer {
 .last {
   padding-bottom: 100px; }
 
+/**************************HOME TABLET****************************/
 @media (min-width: 768px) {
   .homeText {
     margin-top: 30%; }
   .homeText2 {
     margin-top: 10%; } }
+
+/**************************HOME DESKTOP****************************/
+@media (min-width: 1024px) {
+  .homeText2 {
+    max-width: 700px;
+    padding-left: 40px; }
+  .salute {
+    max-width: 500px;
+    font-size: 20px; } }
+
+/**************************INFO****************************/
+/**************************INFO TABLET****************************/
+@media (min-width: 768px) {
+  .infoImage {
+    min-width: 500px;
+    padding-top: 30%; } }
+
+/**************************INFO DESKTOP****************************/
+@media (min-width: 1024px) {
+  .infoImage {
+    min-width: 500px;
+    padding-top: 40%; } }
+
+/**************************HABILIDADES****************************/
+.habilidades img {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin: 30px auto; }
+
+/**************************HABILIDADES TABLET****************************/
+@media (min-width: 768px) {
+  .gridCenter {
+    align-items: center; }
+  .shortParagraph {
+    max-width: 1100px;
+    margin: 0 auto; }
+  .shortParagraph p {
+    max-width: 700px; } }
+
+/**************************HABILIDADES DESKTOP****************************/
+@media (min-width: 1024px) {
+  .grid3Colums {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 20px;
+    grid-template-areas: "cell1 cell2 cell3" "cell4 cell5 cell6"; } }
+
+/**************************PORTFOLIO****************************/
+.proyectos img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto; }
+
+/**************************PORTFOLIO TABLET****************************/
+@media (min-width: 768px) {
+  .portfolioText p {
+    font-size: 20px; }
+  .centerText {
+    text-align: center; } }
+
+/**************************PORTFOLIO DESKTOP****************************/
+/**************************CONTACTO****************************/
+.contactImage {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto; }
+
+.data {
+  text-align: center; }
+
+.data p {
+  padding-bottom: 10px;
+  font-size: 25px; }
+
+.form {
+  display: flex;
+  justify-content: center; }
+
+#contactForm label,
+input,
+textarea {
+  display: block;
+  padding-bottom: 5px; }
+
+.submit,
+.reset {
+  display: inline; }
+
+#contactForm label,
+input,
+textarea {
+  width: 95%;
+  max-width: 500px;
+  margin-bottom: 10px; }
+
+/**************************CONTACTO TABLET****************************/
+@media (min-width: 768px) {
+  .data p {
+    font-size: 20px; } }
+
+/**************************CONTACTO DESKTOP****************************/
+@media (min-width: 1024px) {
+  #contactForm label,
+  input,
+  textarea {
+    max-width: 700px; } }

@@ -6,7 +6,7 @@
 .last {
     padding-bottom: $space;
 }
-
+/**************************HOME TABLET****************************/
 @media (min-width: 768px) {
         .homeText {
         margin-top: 30%;
@@ -16,3 +16,14 @@
         margin-top: 10%;
     }
 }
+/**************************HOME DESKTOP****************************/
+@media (min-width: 1024px) {
+    .homeText2 {
+        max-width: 700px;
+        padding-left: 40px;
+    }
+    .salute{
+        max-width: 500px;
+        font-size: 20px;
+    }
+}    
