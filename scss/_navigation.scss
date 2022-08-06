@@ -1,18 +1,18 @@
 /**************************NAVIGATION****************************/
 .active {
-    color: $fontColor1;
+    color: map-get($principales , fontColor1);
 }
 
 .nav-link {
-    color: $fontColor2;
+    color: map-get($principales , fontColor2);
 }
 
 .current {
-    color: $fontColor1;
+    color: map-get($principales , fontColor1);
 }
 
 .current:hover {
-    color: $fontColor1;
+    color: map-get($principales , fontColor2);
 }
 
 .navbar-collapse {

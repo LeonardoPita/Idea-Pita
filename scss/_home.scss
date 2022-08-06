@@ -1,10 +1,10 @@
 /**************************HOME****************************/
 .content {
-    padding-top: $space;
+    padding-top: map-get($principales , space);
 }
 
 .last {
-    padding-bottom: $space;
+    padding-bottom: map-get($principales , space);
 }
 /**************************HOME TABLET****************************/
 @media (min-width: 768px) {
