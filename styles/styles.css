@@ -6,7 +6,8 @@
   list-style-type: none;
   text-decoration: none;
   font-size: 16px;
-  font-family: Roboto, sans-serif; }
+  font-family: Roboto, sans-serif;
+}
 
 /**************************ANIMATIONS****************************/
 .animateLink {
@@ -14,80 +15,99 @@
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out; }
+  -o-transition: all 0.5s ease-in-out;
+}
 
 .animateLink:hover {
   border-bottom: 1px solid #ffcd1c;
   padding: 0, 2px;
-  color: #ffcd1c; }
+  color: #ffcd1c;
+}
 
 .animateLogo {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out; }
+  -o-transition: all 0.3s ease-in-out;
+}
 
 .animateLogo:hover {
-  font-size: 40px; }
+  font-size: 40px;
+}
 
 .animateIcon {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out; }
+  -o-transition: all 0.3s ease-in-out;
+}
 
 .animateIcon:hover {
   transform: translatey(-15px);
   -webkit-transform: translatey(-15px);
   -moz-transform: translatey(-15px);
   -ms-transform: translatey(-15px);
-  -o-transform: translatey(-15px); }
+  -o-transform: translatey(-15px);
+}
 
 /**************************GENERAL STYLES****************************/
 h1 {
   font-size: 50px;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 h2 {
   font-size: 30px;
-  font-weight: 100; }
+  font-weight: 100;
+}
 
 p {
-  line-height: 1.5em; }
+  line-height: 1.5em;
+}
 
 img {
-  width: 100%; }
+  width: 100%;
+}
 
 .background1 {
-  background-color: black; }
+  background-color: black;
+}
 
 .background2 {
-  background-color: #373a41; }
+  background-color: #373a41;
+}
 
 .fontColor1 {
-  color: #ffcd1c; }
+  color: #ffcd1c;
+}
 
 .fontColor2 {
-  color: white; }
+  color: white;
+}
 
 .flex {
   display: flex;
-  max-width: 98%; }
+  max-width: 98%;
+}
 
 .wraper {
   margin: 0 auto;
   max-width: 1400px;
-  padding: 0px 20px; }
+  padding: 0px 20px;
+}
 
 .active {
-  color: #ffcd1c; }
+  color: #ffcd1c;
+}
 
 .title {
-  font-size: 45px; }
-  .title span {
-    font-size: 45px; }
+  font-size: 45px;
+}
+.title span {
+  font-size: 45px;
+}
 
 @media (min-width: 768px) {
   .grid {
@@ -95,111 +115,151 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, auto);
     gap: 20px;
-    grid-template-areas: "cell1 cell2" "cell3 cell4" "cell5 cell6"; }
+    grid-template-areas:
+      "cell1 cell2"
+      "cell3 cell4"
+      "cell5 cell6";
+  }
   .cell1 {
-    grid-area: cell1; }
+    grid-area: cell1;
+  }
   .cell2 {
-    grid-area: cell2; }
+    grid-area: cell2;
+  }
   .cell3 {
-    grid-area: cell3; }
+    grid-area: cell3;
+  }
   .cell4 {
-    grid-area: cell4; }
+    grid-area: cell4;
+  }
   .cell5 {
-    grid-area: cell5; }
+    grid-area: cell5;
+  }
   .cell6 {
-    grid-area: cell6; } }
+    grid-area: cell6;
+  }
+}
 
 /**************************NAVIGATION****************************/
 .active {
-  color: #ffcd1c; }
+  color: #ffcd1c;
+}
 
 .nav-link {
-  color: white; }
+  color: white;
+}
 
 .current {
-  color: #ffcd1c; }
+  color: #ffcd1c;
+}
 
 .current:hover {
-  color: #ffcd1c; }
+  color: #ffcd1c;
+}
 
 .navbar-collapse {
-  justify-content: end; }
+  justify-content: end;
+}
 
 .navbar-toggler {
   border: transparent;
-  color: transparent; }
+  color: transparent;
+}
 
 .navbar-toggler-icon {
-  background-image: url(../assets/navButton.png); }
+  background-image: url(../assets/navButton.png);
+}
 
 /**************************FOOTER****************************/
 footer {
-  padding-bottom: 50px; }
-  footer .flex {
-    justify-content: space-between;
-    align-items: center; }
-  footer img {
-    width: 36px;
-    height: 36px; }
-  footer .content {
-    padding-top: 50px; }
-  footer .copy {
-    margin-top: 30px;
-    text-align: center;
-    font-weight: 100; }
+  padding-bottom: 50px;
+}
+footer .flex {
+  justify-content: space-between;
+  align-items: center;
+}
+footer img {
+  width: 36px;
+  height: 36px;
+}
+footer .content {
+  padding-top: 50px;
+}
+footer .copy {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 100;
+}
 
 /**************************HOME****************************/
 .content {
-  padding-top: 100px; }
+  padding-top: 100px;
+}
 
 .last {
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+}
 
 /**************************HOME TABLET****************************/
 @media (min-width: 768px) {
   .homeText {
-    margin-top: 30%; }
+    margin-top: 30%;
+  }
   .homeText2 {
-    margin-top: 10%; } }
+    margin-top: 10%;
+  }
+}
 
 /**************************HOME DESKTOP****************************/
 @media (min-width: 1024px) {
   .homeText2 {
     max-width: 700px;
-    padding-left: 40px; }
+    padding-left: 40px;
+  }
   .salute {
     max-width: 500px;
-    font-size: 20px; } }
+    font-size: 20px;
+  }
+}
 
 /**************************INFO****************************/
 /**************************INFO TABLET****************************/
 @media (min-width: 768px) {
   .infoImage {
     min-width: 500px;
-    padding-top: 30%; } }
+    padding-top: 30%;
+  }
+}
 
 /**************************INFO DESKTOP****************************/
 @media (min-width: 1024px) {
   .infoImage {
     min-width: 500px;
-    padding-top: 40%; } }
+    padding-top: 40%;
+  }
+}
 
 /**************************HABILIDADES****************************/
 .habilidades img {
   display: block;
   width: 100%;
   max-width: 250px;
-  margin: 30px auto; }
+  margin: 30px auto;
+}
 
 /**************************HABILIDADES TABLET****************************/
 @media (min-width: 768px) {
   .gridCenter {
-    align-items: center; }
+    align-items: center;
+  }
   .shortParagraph {
     max-width: 1100px;
-    margin: 0 auto; }
+    margin: 0 auto;
+  }
   .shortParagraph p {
-    max-width: 700px; } }
+    max-width: 700px;
+  }
+}
 
 /**************************HABILIDADES DESKTOP****************************/
 @media (min-width: 1024px) {
@@ -208,65 +268,84 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, auto);
     gap: 20px;
-    grid-template-areas: "cell1 cell2 cell3" "cell4 cell5 cell6"; } }
+    grid-template-areas:
+      "cell1 cell2 cell3"
+      "cell4 cell5 cell6";
+  }
+}
 
 /**************************PORTFOLIO****************************/
 .proyectos img {
   display: block;
   width: 100%;
   max-width: 500px;
-  margin: 30px auto; }
+  margin: 30px auto;
+}
 
 /**************************PORTFOLIO TABLET****************************/
 @media (min-width: 768px) {
   .portfolioText p {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .centerText {
-    text-align: center; } }
+    text-align: center;
+  }
+}
 
 /**************************PORTFOLIO DESKTOP****************************/
 /**************************CONTACTO****************************/
 .contactImage {
   width: 500px;
   max-width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .data {
-  text-align: center; }
+  text-align: center;
+}
 
 .data p {
   padding-bottom: 10px;
-  font-size: 25px; }
+  font-size: 25px;
+}
 
 .form {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 #contactForm label,
 input,
 textarea {
   display: block;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+}
 
 .submit,
 .reset {
-  display: inline; }
+  display: inline;
+}
 
 #contactForm label,
 input,
 textarea {
   width: 95%;
   max-width: 500px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 /**************************CONTACTO TABLET****************************/
 @media (min-width: 768px) {
   .data p {
-    font-size: 20px; } }
+    font-size: 20px;
+  }
+}
 
 /**************************CONTACTO DESKTOP****************************/
 @media (min-width: 1024px) {
   #contactForm label,
   input,
   textarea {
-    max-width: 700px; } }
+    max-width: 700px;
+  }
+}
