@@ -4,6 +4,7 @@
 }
 
 .last {
+    @extend .content;
     padding-bottom: map-get($principales , space);
 }
 /**************************HOME TABLET****************************/
