@@ -1,5 +1,5 @@
 # Idea-Pita
-Applying SASS-and Seo Coder house project.
+3rd final assignment Coder house project.
 
 https://leonardopita.github.io/Idea-Pita/
 
