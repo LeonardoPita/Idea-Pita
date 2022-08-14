@@ -1,7 +1,7 @@
 {
-  "name": "sass",
+  "name": "Idea-Pita",
   "version": "1.0.0",
-  "description": "",
+  "description": "Leonardo Pita, web developer, front end",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
