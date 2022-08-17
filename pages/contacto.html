@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Leonardo Pita WebDev/CONTACTO</title>
+        <title>LeoPita CONTACTO</title>
         <meta name="description" content="Leonardo Pita Web, web de desarrollador web, CONTACTO PAGE.">
         <meta name="keywords"  content="HTML, JS, CSS, , sass, git, github, CONTACTO">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -68,20 +68,20 @@
         <div class="content last form">
                 <form id="contactForm" class="fontColor2" action="">
                     <div>
-                        <label id="name-label">Nombre:</label>
-                        <input id="name" type="text" placeholder="Tu Nombre" required>
+                        <label for="nombre" id="name-label">Nombre:</label>
+                        <input name="nombre" id="name" type="text" placeholder="Tu Nombre" required>
                     </div>
                     <div>
-                        <label id="email-label">Email:</label>
-                        <input id="email" type="email" required placeholder="Yours@email.com">
+                        <label id="email-label" for="Email">Email:</label>
+                        <input id="email" type="email" required placeholder="Yours@email.com" name="Email">
                     </div>
                     <div>
-                        <label id="number-label">Teléfono:</label>
-                        <input id="number" type="number" min="8" max="12" required placeholder="11-1111-1111">
+                        <label id="number-label" for="Telefono">Teléfono:</label>
+                        <input id="number" type="number" min="8" max="12" required placeholder="11-1111-1111" name="Telefono">
                     </div>
 
-                    <label>Mensaje</label>
-                    <textarea name="TellUs" rows="10" cols="90"></textarea>
+                    <label for="TellUs">Mensaje</label>
+                    <textarea name="TellUs" rows="10" cols="90" placeholder="Ingresa tu mensaje" ></textarea>
                     <div class="submit">
                         <button type="submit">Enviar</button>
                     </div>
@@ -101,9 +101,9 @@
                 </div>
                 <div class="flex content">
                     <h2 class="animateIcon"><a class="navbar-brand fontColor1 title current animateIcon" href="../index.html">LP</a></h2>
-                    <a href="#"><img class="animateIcon" src="../assets/githublogo.png"></a>
-                    <a href="#"><img class="animateIcon" src="../assets/linkedinlogo.png"></a>
-                    <a href="#"><img class="animateIcon" src="../assets/instagramlogo.png"></a>
+                    <a href="#"><img class="animateIcon" src="../assets/githublogo.png" alt="Logo github" ></a>
+                    <a href="#"><img class="animateIcon" src="../assets/linkedinlogo.png" alt="Logo linkedin"></a>
+                    <a href="#"><img class="animateIcon" src="../assets/instagramlogo.png" alt="Logo instagram"></a>
                 </div>
                 <div class="copy">
                     <p>LeonardoPita.com</p>
