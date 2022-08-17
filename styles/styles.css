@@ -235,7 +235,8 @@ footer {
   text-align: center; }
 
 .data p {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  margin: 0px;
   font-size: 25px; }
 
 .form {
